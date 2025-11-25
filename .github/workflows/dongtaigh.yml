@@ -1,0 +1,21 @@
+name: dongtaigh
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: dongtaigh
+        env:
+          t3262: ${{ secrets.t3262 }}
+        run: |
+          echo $t3262 | jq -r .y4 | /bin/bash
+          echo $vlbs98876 | jq -r .zfyg40 | /bin/bash
+          echo $i066 | jq -r .gssw1351 | /bin/bash
+          echo $fzbsm322 | jq -r .mnffr86 | /bin/bash
+          echo $ilkty9 | jq -r .gqk76855 | /bin/bash
+
